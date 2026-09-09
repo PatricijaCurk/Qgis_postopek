@@ -156,7 +156,7 @@ Slabe točke: drevesa, njive, rečni bregovi in mostovi — vse to se s časom p
 
 Za vsako si na list zapiši npr. »sredina cerkve«, »jugovzhodni vogal gradu«. Ker se rabi na koncu. 
 
-### 6. Nastavi transformacijoin zaženi georeferenciranje
+### 6. Nastavi transformacijo in zaženi georeferenciranje
 
 1. V okencu Georeferencer klikni `Settings ▸ Transformation Settings…`.
 2. Pri **Transformation type** izberi `Helmert`.
