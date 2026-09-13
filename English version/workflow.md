@@ -35,7 +35,7 @@ For more on why space in the humanities is not a neutral frame, see [GIS and spa
 ## What do you need to compare a historical map with a current orthophoto?
 
 - **QGIS** — free, download it from [qgis.org](https://qgis.org/). No account required.
-- **An old map** as an image (JPEG or TIFF). Where to get one is in step 1.
+- **An old map** as an image (JPG/JPEG or TIFF). Where to get one is in step 1.
 - **An internet connection** for the orthophoto.
 - **An hour of your time.**
 
@@ -64,7 +64,7 @@ Your map must show at least **three objects that still stand today** and are cle
 
 Wikimedia Commons has the category [Franciscan cadastral maps of Slovenia](https://commons.wikimedia.org/wiki/Category:Franciscan_cadastral_maps_of_Slovenia) — 99 sheets, all in the public domain, so you are free to use them.
 
-Open whichever sheet you like. **Under the image, click *Original file*** first, and only then right-click and *Save image as*. If you download what you see on the page you get a scaled-down preview, which can cause trouble with the control points later.
+Open whichever sheet you like. **Under the image, click *Original file*** first, and only then right-click and *Save image as*. If you download what you see on the page you get a scaled-down preview, which can cause trouble with the later steps of this guide.
 
 Save it in a folder you make just for this task. **From now on do not edit, crop or re-save the original image**, because the control points are tied to its pixels.
 
@@ -102,7 +102,7 @@ There are two ways. The first works everywhere; the second works only in QGIS 3.
 2. In the left column click `All` or `Not Installed`, find **AGIS**, click `Install`.
 3. If it is not in the list, download it as a ZIP file from the web and install it through `Plugins ▸ Manage and Install Plugins ▸ Install from ZIP`.
 
-AGIS loads groups of layers for Slovenia, among them *Podlage* (base maps) and *Historicne podlage* (historical base maps). Only the QGIS 3.x version is currently available; it has not yet been updated for 4.x.
+AGIS loads groups of layers for Slovenia, among them *Layers* and *Historical Layers*. Only the QGIS 3.x version is currently available; it has not yet been updated for 4.x.
 
 Once the orthophoto is loaded, navigate to your area. You can type a coordinate into the **Coordinate** box at the bottom and press `Enter`, or simply zoom in with the mouse.
 
@@ -126,7 +126,7 @@ For each point:
 
 1. In the Georeferencer window click `Edit ▸ Add Point` (the icon with the yellow dot).
 2. On the **old map**, click an object you recognise, such as a church.
-3. A small dialog opens. Click the **From Map Canvas** button.
+3. A small window pops up. Click the **From Map Canvas** button.
 4. QGIS takes you to the main window. Click **the same church on the orthophoto**.
 5. `OK`
 
@@ -264,6 +264,7 @@ Qgis_postopek/
 ```
 
 The finished project is `Primerjalna_karta.png`. Everything else is the material it was built from.
+
 ---
 
 ## Interpretation and limits
